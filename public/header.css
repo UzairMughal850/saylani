@@ -1,0 +1,69 @@
+@font-face{
+    font-family: comfortaa;
+    src: url('font/Comfortaa/Comfortaa-VariableFont_wght.ttf');
+}
+*{
+    font-family: comfortaa;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: royalblue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.header .header1{
+    width: auto;
+    margin: 15px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    
+}
+.header .header1 img{
+    width: 15px;
+    padding: 0 15px 0 15px;
+}
+.header .header2{
+    width: auto;
+    padding: 0 30px 0 30px;
+    margin: 15px 0 15px 0;
+}
+.header .header2 p{
+    color: white;
+    font-size: 15px;
+}
+.header .header3 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding: 0 15px 0 15px;
+    margin-bottom: 15px;
+}
+.header .header3 div{
+    width: 80px;
+    height: 15px;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid green;
+    margin: 10px 1px 5px 1px;
+    text-align: center;
+    color: gray;
+    background: white;
+}
+.float{
+    position: fixed;
+    top: 90%;
+    right: 1%;
+    z-index: 100;
+    opacity: .8;
+}
+.float img{
+    width: 50px;
+    color: white;
+}
+
+

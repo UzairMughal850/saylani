@@ -1,0 +1,53 @@
+.updates{
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+}
+.updates marquee{
+    background: royalblue;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+.intro{
+    position: relative;
+    margin: 0;
+    background: rgba(0, 255, 149, 0.644);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.intro .intro1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 10px 0;
+}
+.intro .intro1 #intro {
+    color: royalblue;
+}
+.intro .intro1 #duction {
+    color: red;
+}
+.intro .intro2{
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    border-bottom: 2px solid red;
+    border-radius: 2px;
+}
+.intro .intro2 img{
+    width: 40px;
+}
+.intro .intro3{
+    margin: 0 10% 0 10%;
+}
+.intro .intro3 p{
+    padding: 20px;
+    color: gray;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    word-spacing: 3px;
+}
+
+

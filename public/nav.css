@@ -1,0 +1,142 @@
+
+.nav{
+    position: sticky;
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:  rgba(0, 255, 149, 0.644);
+    z-index: 100;
+}
+.nav .nav1{
+    width: 300px;
+}
+.nav .nav1 img{
+    width: 200px;
+    padding: 10px 0px 10px 40px;
+}
+.nav .nav2{
+    padding:15px 80px 0 0;
+}
+.nav .nav2 ul li{
+    position: relative;
+    padding: 0 10px 0 10px;
+    list-style: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+.nav .nav2 ul li a{
+    display: block;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.nav .nav2 ul li a:hover{
+    background: royalblue;
+    transition: .7s ;
+    border-radius: 50px;
+    color: white;
+}
+.nav .nav2 ul li:hover > ul{
+    display: block;
+    z-index: 100;
+}
+.nav .nav2 ul li:active > ul{
+    display: block;
+    z-index: 100;
+}
+.nav .nav2 ul ul {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    padding-top: 15px;
+    display: none;
+}
+.nav .nav2 ul ul li{
+    float: none;
+    display: list-item;
+    position: relative;
+    background: white;
+    border-radius: 0px;
+}
+.nav .nav2 ul ul li a{
+    line-height: 30px;
+    color: gray;
+    font-weight: lighter;
+}
+.nav .nav2 ul ul li a:hover{
+    border-radius: 0px;
+    margin-left: 5px;
+    transition: 1s;
+}
+.nav .nav2 ul ul ul li{
+    position: relative;
+    top: -65px;
+    left: 230px;
+}
+.nav .nav2 ul ul ul ul li{
+    position: relative;
+    top: -65px;
+    left: 230px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: royalblue;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media all and (max-width : 980px){
+    .nav2 ul {
+        margin-right: 0px;
+        float: left;
+    }
+
+    .nav .nav2 ul li , .nav .nav2 ul ul li , .nav .nav2 ul ul ul li , .nav .nav2 ul ul ul ul li{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    .nav .nav2 ul ul{
+       position: static;
+        float: none;
+        margin-left: 50px;
+    }
+    .nav .nav2 ul ul ul{
+
+        top: 50px;
+        right: 270px;
+        position: relative;
+        float: none;    
+    }
+    .nav .nav2 ul ul ul ul{
+        top: 50px;
+        right: 270px;
+        position: relative;
+        float: none;
+    }
+    .checkbtn {
+        display: block;
+    }
+    #check:checked ~ .nav2{
+        left: 0;
+    }
+    
+}
+
+    
+    
+

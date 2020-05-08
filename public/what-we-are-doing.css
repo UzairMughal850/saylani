@@ -1,0 +1,170 @@
+.figure{
+    background: royalblue;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.figure .figure1,.figure2,.figure3,.figure4{
+    margin: 60px 0 60px 0;
+    width: 310px;
+}
+.figure img{
+    width: 50px;
+}
+.figure h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+    font-style: italic;
+    color: white;
+}
+.figure p{
+font-size: 15px;
+color: white;
+font-weight: bolder;
+margin: 10px;
+}
+
+.doing{
+    background: rgba(0, 255, 149, 0.644);
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.doing .sadqah , .welfare , .medical , .dastarkhwan , .plant , .education{
+    width: 250px;
+    margin: 50px 20px 0 20px ;
+    padding: 30px 60px 30px 60px;
+    box-shadow: 7px 7px 20px gray;
+    background: white;
+}
+.doing img{
+    width: 80px;
+}
+.doing h1{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.doing .heading{
+    display: inline-block;
+}
+.doing .doing1{
+    width: 1000px;
+    font-size: 40px;
+    font-weight: bold;
+    word-spacing: 3px;
+    padding: 50px 0 10px 0;
+}
+.doing .doing1 #whatwe {
+    color: royalblue;
+}
+.doing .doing1 #aredoing {
+    color: red;
+}
+.doing .doing2{
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    border-bottom: 2px solid red;
+    border-radius: 2px;
+    
+}
+.doing .doing2 img{
+    width: 40px;
+}
+
+.upcomming{
+    padding: 60px 50px 0 0;
+    background:white;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.upcomming .projects{
+    display: inline-block;
+    width: 60%;
+}
+.upcomming .projects .heading{
+    margin-bottom: 30px;
+}
+.upcomming .projects .heading h1{
+    font-size: 24px;
+    color: blue;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.upcomming .projects .images{
+    display: flex;
+    margin-bottom: 30px;
+}
+.upcomming .projects .images div{
+    display: flex;
+    width: 300px;
+    height: auto;
+    background: cyan;
+    border: 1px solid rgb(223, 224, 224);
+    margin: 30px 0 0 0; 
+    padding: 20px 0px 20px 20px;
+}
+.upcomming .projects .images div img{
+    margin-right: 30px;
+    width: 30px;
+}
+.upcomming .projects .images div h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: royalblue;
+}
+.upcomming .projects .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.upcomming1 .events{
+    width: 50%;
+    margin-left: 0;
+}
+.upcomming1 .events .heading{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.upcomming1 .events .heading h1{
+    font-size: 24px;
+    color: blue;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+.upcomming .upcomming1 .marquee{
+    margin-top: 10px;
+    
+}
+.upcomming .upcomming1 marquee{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+.upcomming .upcomming1 marquee p{
+    padding: 15px 30px 0 0;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    text-align: justify;
+}

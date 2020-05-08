@@ -1,0 +1,71 @@
+.gallery{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.gallery .gallery1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    padding: 50px 0 10px 0;
+}
+.gallery .heading{
+    margin-left: 10%;
+}
+.gallery .gallery1 #whatwe {
+    color: royalblue;
+}
+.gallery .gallery1 #aredoing {
+    color: red;
+}
+.gallery .gallery2{
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    border-bottom: 2px solid red;
+    border-radius: 2px;
+    
+}
+.gallery .gallery2 img{
+    width: 40px;
+}
+
+.gallery .images{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 70px;
+}
+.gallery .images div{
+    padding: 1px;
+    position: relative;
+    display: inline-block;
+}
+.gallery .images .img{
+    width: 225px;
+    height: 150px;
+}
+.gallery .images .icon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    visibility: hidden;
+}
+.gallery .images .icon img{
+    width: 30px;
+}
+
+.gallery .images .img:hover{
+    opacity: .2;
+    transition: 1s;
+}
+.gallery .images div:hover > .icon{
+    visibility: visible;
+    transition: 1s;  
+}
+
